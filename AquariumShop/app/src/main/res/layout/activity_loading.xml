@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loading"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="@string/Loading_TV_welcome"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="60sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/wish"/>
+
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/Loading_TV_wish"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="30sp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Aquarium Shop</string>
+
+    <string name="Loading_TV_welcome">Welcome to Aquarium Shop</string>
+    <string name="Loading_TV_wish">Enjoy Life! ❤</string>
+
+    <string name="Login_TV_dn">Đăng nhập để tiếp tục!</string>
+    <string name="Login_ET_tdn">Tên người dùng</string>
+    <string name="Login_ET_mk">Mật khẩu</string>
+    <string name="Login_BT_dn">Đăng nhập</string>
+    <string name="Login_BT_dk">Đăng ký</string>
+    <string name="Login_TV_dk">Đăng ký nếu chưa có tài khoản!</string>
+
+    <string name="SignUp_TV_tt">THÔNG TIN ĐĂNG KÝ!</string>
+    <string name="SignUp_ET_tdn">Tên người dùng</string>
+    <string name="SignUp_ET_mk">Mật khẩu</string>
+    <string name="SignUp_ET_xtmk">Xác thực mật khẩu</string>
+    <string name="SignUp_BT_dktk">Tạo tài khoản</string>
+    <string name="SignUp_TV_dktk">Xác nhận tạo tài khoản!</string>
+
+    <string name="SoldOff">Love Life Story Fish! ❤</string>
+    <string name="sanpham">Sản Phẩm Nổi Bật</string>
+    <string name="description">Bên phải là các con cá kiểng tại shop. Shop luôn cố gắng tìm kiếm những mẫu cá đẹp nhằm phục vụ cho khách hàng! ❤</string>
+    <string name="noiBat">Cá Nổi Bật</string>
+    <string name="descriptionFish">Hãy nhập tên của bạn và số điện thoại của bạn chúng tôi sẽ gọi điện cho bạn để xác nhận đặt hàng! ❤</string>
+
+    <string name="SV1">Phạm Mạnh Trung Nguyên</string>
+    <string name="SV2">Phong</string>
+</resources>

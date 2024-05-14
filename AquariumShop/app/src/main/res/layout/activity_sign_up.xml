@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SignUp"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/back_login"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_reply_24"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/edittext_hoten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ và Tên"
+            android:textSize="25dp"
+            android:ems="22"
+            android:inputType="text"
+            android:textColorHint="@color/milkorange"
+            android:drawableEnd="@drawable/ic_baseline_done_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên Người Dùng"
+            android:textSize="25dp"
+            android:id="@+id/edittext_tennd"
+            android:ems="22"
+            android:inputType="text"
+            android:textColorHint="@color/milkorange"
+            android:drawableEnd="@drawable/ic_baseline_done_all_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa Chỉ"
+            android:textSize="25dp"
+            android:id="@+id/edittext_diachi"
+            android:ems="22"
+            android:inputType="text"
+            android:textColorHint="@color/milkorange"
+            android:drawableEnd="@drawable/ic_baseline_add_location_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="25dp"
+            android:id="@+id/edittext_email"
+            android:ems="22"
+            android:inputType="text"
+            android:textColorHint="@color/milkorange"
+            android:drawableEnd="@drawable/ic_outline_email_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày Sinh"
+            android:textSize="25dp"
+            android:id="@+id/edittext_ngaysinh"
+            android:ems="22"
+            android:inputType="text"
+            android:textColorHint="@color/milkorange"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật Khẩu "
+            android:textSize="25dp"
+            android:id="@+id/edittext_matkhau"
+            android:ems="22"
+            android:inputType="text"
+            android:textColorHint="@color/milkorange"
+            android:drawableEnd="@drawable/ic_baseline_lock_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/gioi_tinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giới Tính :"
+            android:textColor="@color/orange"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:text="Nam"
+            android:checked="true"
+            android:id="@+id/radio_nam"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:text="Nữ"
+            android:id="@+id/radio_nu"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Đăng Ký Tài Khoản"
+        android:textSize="20dp"
+        android:id="@+id/button_dangky"
+        android:textColor="#ffff"
+        android:background="@drawable/button_rounded"/>
+</LinearLayout>

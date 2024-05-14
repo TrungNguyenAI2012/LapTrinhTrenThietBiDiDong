@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:padding="10dp"
+    android:layout_marginLeft="10dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="170dp"
+        android:background="@drawable/sproduct">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="170dp"
+            android:src="@drawable/user"
+            android:scaleType="fitXY"
+            android:id="@+id/mv_image"></ImageView>
+        <TextView
+            android:id="@+id/mv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fish"
+            android:layout_toRightOf="@+id/mv_image"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:textSize="20dp"></TextView>
+        <RatingBar
+            android:id="@+id/mv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_below="@+id/mv_title"
+            android:layout_toRightOf="@id/mv_image"
+            android:layout_marginLeft="10dp"
+            android:rating="4"></RatingBar>
+        <TextView
+            android:id="@+id/mv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="54 Reviews"
+            android:layout_below="@id/mv_rating"
+            android:layout_toRightOf="@id/mv_image"
+            android:padding="10dp"></TextView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
